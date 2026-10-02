@@ -1,0 +1,7 @@
+.languages{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <title>Portifólio João Vitor Lino</title>
+</head>
+<body>
+        
+     <main class="main">
+                        <div class="tres-pontos">
+                            <div class="pontos"></div>
+                            <div class="pontos"></div>
+                            <div class="pontos"></div>
+                        </div>
+                 <header class="header">
+                    <img  class="photo item1" id="profile.photo" src="./assets/img/photoPortifolio.jpeg" alt="foto de Perfil" >
+                    
+                    <h1 class="title item2">Olá, <br> eu sou o <span id="profile.name"> Carregando...</span> </h1>
+
+                    <div class="information item3" >
+                        <p id="profile.job">Carregando...</p>
+                        <p id="profile.location">Carregando...</p>
+                        <p>
+                            <a href="tel:+55 (21) 9 6846-5215" id="profile.phone">
+                                Carregando...
+                            </a>
+                        </p>
+                        <p>
+                            <a href="mailto:joaovitor.lino@hotmail.com" id="profile.email">
+                                carregando@mail.com
+                            </a>
+                        </p>
+                    </div> 
+            </header>
+
+            <section class="acordeon ">
+                <button class="trigger open" type="button">Skills    <div class="arrow">\/</div></button>
+                
+                <div id="skills" class="content">
+                    <div class="habilidades" id="profile.skills.hardskills" >
+                        <h2>Habilidades profissionais:</h2>
+                        <span><img class="icon-skills" src="./assets/icons/iconfront.png" alt="" srcset=""></span> 
+                        <span><img class="icon-skills" src="./assets/icons/uiux.png" alt="" srcset=""></span>
+                    </div>
+                    <div class="habilidades-pessoais">
+                        <h2>Habilidades pessoais:</h2>
+                        <ul id="profile.skills.softskills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                
+            </section>
+
+            <section class="acordeon ">
+                <button class="trigger open" type="button">Idiomas     <div class="arrow">\/</div></button>
+                
+                <div class="content" >
+                    <ul class="languages" id="profile.languages">
+                        <li>Carregando...</li>
+                         
+                    </ul>
+                </div>
+                
+                
+            </section>
+            
+            <section class="acordeon ">
+                <button class="trigger open" type="button">Educação <div class="arrow">\/</div></button>
+                
+                <div id="edu" class="content">
+                    <ul>
+                        <h2>Estacio de Sá - Analise e Desenvolvimento de Sistemas</h2>
+                        <p>Concluido - Julho de 2026</p>
+
+                        <h2>DIO - Java Script Developer</h2>
+                        <p>Concluido - Outubro de 2026</p>
+                        
+                    </ul>
+                </div>
+                
+                
+            </section>
+
+            <section class="acordeon ">
+                <button class="trigger open" type="button">Portfolio <div class="arrow">\/</div></button>
+                
+                <div class="content">
+                    <ul class="portfolio" id="profile.portfolio">
+                        
+                    </ul>
+                </div>
+                
+                
+            </section>
+
+            <section class="acordeon ">
+                <button class="trigger open" type="button">Experiência Profissional <div class="arrow">\/</div></button>
+                
+                <div class="content exp">
+                    <ul id="profile.professionalExperience">
+                        
+                </div>
+                
+                
+            </section>
+
+        </main>
+
+
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+   font-family: Neuamachina;
+   src: url('/assets/fontes/neue-machina-font-family/neuemachina-light.otf');
+}
+.title {
+    font-family: Neuamachina;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #06060c;
+  background-image: 
+    /* Brilho rosa / magenta no canto superior esquerdo */
+    radial-gradient(circle at 10% 15%, rgba(233, 51, 143, 0.75) 0%, rgba(233, 51, 143, 0.05) 45%, transparent 60%),
+    /* Brilho azul no canto inferior direito */
+    radial-gradient(circle at 85% 85%, rgba(31, 102, 255, 0.65) 0%, rgba(31, 102, 255, 0.05) 45%, transparent 65%),
+    /* Brilho sutil avermelhado na lateral direita */
+    radial-gradient(circle at 95% 45%, rgba(180, 20, 70, 0.35) 0%, transparent 40%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+.main {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
+
+.tres-pontos{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    justify-content: flex-end;
+    margin: .5rem;
+    position: relative;
+}
+
+.pontos {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+
+
+a {
+        text-decoration: none;
+        color: #fff;
+    }
+.information a:hover {
+        text-decoration: underline;
+    }
+
+
+
+.icon-skills {
+    max-width: 6rem;
+    max-height: 6rem;
+}
+#skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.2rem;
+    li {
+        font-size: 1rem;
+        
+    }
+}
+.habilidades {
+    span {
+        margin: 1rem;
+    }
+}
+
+
+
+@media (min-width: 0) and (max-width: 700px) {
+    #skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.2rem;
+    li {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
+
+    #edu{
+        h2{
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .main{
+        
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .main{
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+}

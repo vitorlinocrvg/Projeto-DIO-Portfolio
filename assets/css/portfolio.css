@@ -1,0 +1,29 @@
+.portfolio{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    li {
+        font-weight: bold;
+        font-size: 1.5rem ;
+    }
+    a{
+   
+     text-decoration: none;
+     color: white;
+     font-size: 1.1rem;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+.portfolio li::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/icons/git.svg');
+    margin-right: .5rem;
+}
